@@ -25,5 +25,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # RisingOS flags
 TARGET_ENABLE_PIXEL_FEATURES := true
-RISING_MAINTAINER := ꪖ​ꪀ𝘴ꫝ|邪惡的
-
+RISING_MAINTAINER := αиѕн
