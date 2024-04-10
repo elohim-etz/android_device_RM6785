@@ -1,4 +1,4 @@
-rm -rf vendor/realme/RM6785-common
-rm -rf kernel/realme/mt6785
-rm -rf device/mediatek/sepolicy_vndr
-rm -rf hardware/mediatek
+rm -rf /home/EvilAnsh/rising/vendor/realme/RM6785-common
+rm -rf /home/EvilAnsh/rising/kernel/realme/mt6785
+rm -rf /home/EvilAnsh/rising/device/mediatek/sepolicy_vndr
+rm -rf /home/EvilAnsh/rising/hardware/mediatek
