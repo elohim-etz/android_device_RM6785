@@ -100,6 +100,9 @@ ro.incremental.enable=yes
 # Power HAL
 vendor.powerhal.disp.idle_support=false
 
+# Power HAL
+vendor.powerhal.disp.idle_support=false
+
 # MTK
 ro.vendor.mediatek.platform=MT6785
 
