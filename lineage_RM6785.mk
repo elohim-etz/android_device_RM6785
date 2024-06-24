@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/realme/RM6785/device.mk)
 
 # Inherit some common risingOS stuff.
-$(call inherit-product, vendor/rising/config/rising.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rising_RM6785
+PRODUCT_NAME := lineage_RM6785
 PRODUCT_DEVICE := RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RM6785
@@ -24,6 +24,8 @@ PRODUCT_MANUFACTURER := realme
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # RisingOS flags
+PRODUCT_NO_CAMERA := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_ENABLE_PIXEL_FEATURES := true
 TARGET_ENABLE_BLUR := true
 RISING_MAINTAINER := αиѕн
