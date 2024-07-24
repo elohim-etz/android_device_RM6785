@@ -13,7 +13,7 @@ echo 'Cloning Kernel tree [2/4]'
 rm -rf kernel/realme/mt6785
 if [ ! -d "kernel/realme/mt6785" ]; then
     mkdir -p kernel/realme/mt6785
-    git clone https://github.com/realme-mt6785-devs/android_kernel_realme_mt6785 -b lineage-21 kernel/realme/mt6785
+    git clone https://github.com/EvilAnsh/android_kernel_realme_mt6785 -b lineage-21 kernel/realme/mt6785
 fi
 
 echo 'Cloning Mediatek SEpolicy_vndr [3/4]'
@@ -21,10 +21,7 @@ echo 'Cloning Mediatek SEpolicy_vndr [3/4]'
 rm -rf device/mediatek/sepolicy_vndr
 if [ ! -d "device/mediatek/sepolicy_vndr" ]; then
     mkdir -p device/mediatek/sepolicy_vndr
-    git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git -b lineage-21 device/mediatek/sepolicy_vndr
-    cd device/mediatek/sepolicy_vndr
-    wget https://gist.github.com/EvilAnsh/b50c5ee320ee21aca61b8120daf6b7e6/raw/86cd85c78dd18585542f50726fde1f89bf2accc9/SEPolicy.patch && git am *.patch
-    cd - 
+    git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git -b lineage-21 device/mediatek/sepolicy_vndr 
 fi
 
 echo 'Cloning Hardware Mediatek [4/4]'
