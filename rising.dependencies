@@ -1,0 +1,26 @@
+[
+  {
+    "remote"      : "github",
+    "repository"  : "EvilAnsh/proprietary_vendor_realme_RM6785-common",
+    "branch"      : "lineage-21",
+    "target_path" : "vendor/realme/RM6785-common"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "LineageOS/android_hardware_mediatek",
+    "branch"      : "lineage-21",
+    "target_path" : "hardware/mediatek"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "realme-mt6785-devs/android_kernel_realme_mt6785",
+    "branch"      : "lineage-21",
+    "target_path" : "kernel/realme/mt6785"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch"      : "lineage-21",
+    "target_path" : "device/mediatek/sepolicy_vndr"
+  }
+]
