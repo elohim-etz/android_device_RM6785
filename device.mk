@@ -336,6 +336,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    libcrypto_v33 \
     libmedia_helper-v30 \
     libutils-v32 \
     libutils-v30 \
