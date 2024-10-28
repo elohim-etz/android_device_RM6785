@@ -1,8 +1,8 @@
 [
   {
     "remote"      : "github",
-    "repository"  : "EvilAnsh/proprietary_vendor_realme_RM6785-common",
-    "branch"      : "lineage-21",
+    "repository"  : "realme-mt6785-devs/proprietary_vendor_realme_RM6785-common",
+    "branch"      : "lineage-22",
     "target_path" : "vendor/realme/RM6785-common"
   },
   {
