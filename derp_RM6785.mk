@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/realme/RM6785/device.mk)
 
 # Inherit some common Derpfest stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
