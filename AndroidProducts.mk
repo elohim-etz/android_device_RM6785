@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RM6785.mk
+    $(LOCAL_DIR)/derp_RM6785.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_RM6785-eng \
+    derp_RM6785-userdebug \
+    derp_RM6785-user

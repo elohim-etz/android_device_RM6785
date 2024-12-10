@@ -12,22 +12,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RM6785/device.mk)
 
-# Inherit some common risingOS stuff.
+# Inherit some common Derpfest stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RM6785
+PRODUCT_NAME := derp_RM6785
 PRODUCT_DEVICE := RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RM6785
 PRODUCT_MANUFACTURER := realme
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-# RisingOS flags
-PRODUCT_NO_CAMERA := false
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-TARGET_ENABLE_PIXEL_FEATURES := true
-TARGET_ENABLE_BLUR := true
-RISING_MAINTAINER := αиѕн
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_MAINTAINER="αиѕн"
+    PRODUCT_NAME=RM6785
