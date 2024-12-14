@@ -7,6 +7,9 @@
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/RM6785-common/RM6785-common-vendor.mk)
 
+# Make Dolby Atmos
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
