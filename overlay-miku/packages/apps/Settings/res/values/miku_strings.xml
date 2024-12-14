@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2024 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="miku_maintainer_uri" translatable="false">t.me/elohim-etz</string>
+</resources>
