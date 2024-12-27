@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_RM6785.mk
+    $(LOCAL_DIR)/bliss_RM6785.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_RM6785-user \
-    voltage_RM6785-userdebug \
-    voltage_RM6785-eng
+    bliss_RM6785-user \
+    bliss_RM6785-userdebug \
+    bliss_RM6785-eng
