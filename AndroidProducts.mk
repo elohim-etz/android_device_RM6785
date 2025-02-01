@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RM6785.mk
+    $(LOCAL_DIR)/clover_RM6785.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RM6785-user \
-    aosp_RM6785-userdebug \
-    aosp_RM6785-eng
+    clover_RM6785-user \
+    clover_RM6785-userdebug \
+    clover_RM6785-eng

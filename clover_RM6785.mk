@@ -12,20 +12,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RM6785/device.mk)
 
-# Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Clover stuff.
+$(call inherit-product, vendor/clover/config/common_full_phone.mk)
 
-# 2by2 Project Flags
-CUSTOM_MAINTAINER := 𝙴𝙻𝙾𝙷𝙸𝙼
-TARGET_USES_MINI_GAPPS := true
-TARGET_INCLUDE_EXTRA_APPS := false
-TARGET_USES_BLUR := false
+# Project Clover Flags
+CLOVER_BUILDTYPE := UNOFFICIAL
+WITH_GMS := false
+TARGET_BUILD_VARIANT := user
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_RM6785
+PRODUCT_NAME := clover_RM6785
 PRODUCT_DEVICE := RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RM6785
