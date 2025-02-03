@@ -10,6 +10,9 @@ $(call inherit-product, vendor/realme/RM6785-common/RM6785-common-vendor.mk)
 # V4A
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+#Dolby
+$(call inherit-product-if-exists, hardware/dolby/dolby.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
@@ -61,6 +64,12 @@ PRODUCT_PACKAGES += \
 # ConfigStore
 PRODUCT_PACKAGES += \
     disable_configstore
+
+# Dolby
+PRODUCT_PACKAGES += \
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor \
+    libsqlite.vendor
 
 # Doze
 PRODUCT_PACKAGES += \
