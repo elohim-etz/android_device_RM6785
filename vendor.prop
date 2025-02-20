@@ -201,12 +201,15 @@ ro.vendor.vibrator.hal.click.duration=70
 ro.vendor.vibrator.hal.tick.duration=60
 ro.vendor.vibrator.hal.texture_tick.duration=40
 
-# VM
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heapmaxfree=8m
-dalvik.vm.heapminfree=512k
-dalvik.vm.heapsize=512m
-dalvik.vm.heaptargetutilization=0.75
+# Dalvik
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=6
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
 
 # Wifi
 ro.vendor.wifi.sap.interface=ap0
