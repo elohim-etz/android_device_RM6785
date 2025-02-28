@@ -3,3 +3,10 @@ dalvik.vm.dex2oat64.enabled=true
 
 # IMS
 persist.dbg.volte_avail_ovr=1
+
+InfinityX props
+ro.infinity.soc=MT6785
+ro.infinity.battery=4300 mAh
+ro.infinity.display=1080 x 2400, 90 Hz
+ro.infinity.camera=64MP + 8MP + 2MP + 2MP
+ro.product.marketname=RM6785
