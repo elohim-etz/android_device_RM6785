@@ -47,3 +47,5 @@ allow hal_power_default sysfs_fpsgo:file rw_file_perms;
 # Set touchpanel nodes
 allow hal_power_default proc_tp:dir search;
 allow hal_power_default proc_tp:file rw_file_perms;
+
+allow hal_power_default proc:file { open };
