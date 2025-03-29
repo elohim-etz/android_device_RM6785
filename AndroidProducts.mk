@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/clover_RM6785.mk
+    $(LOCAL_DIR)/lineage_RM6785.mk
 
 COMMON_LUNCH_CHOICES := \
-    clover_RM6785-user \
-    clover_RM6785-userdebug \
-    clover_RM6785-eng
+    lineage_RM6785-user \
+    lineage_RM6785-userdebug \
+    lineage_RM6785-eng
