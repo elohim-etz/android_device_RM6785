@@ -7,3 +7,10 @@ persist.dbg.volte_avail_ovr=1
 # LMKD
 ro.config.low_ram=false
 ro.lmk.log_stats=true
+
+#InfinityX
+ro.product.marketname=RM6785
+ro.infinity.soc=MT6785
+ro.infinity.battery=4300 mAh
+ro.infinity.display=2400 x 1080, 90 Hz
+ro.infinity.camera=64MP + 8MP + 2MP + 2MP

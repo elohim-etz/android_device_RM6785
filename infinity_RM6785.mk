@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2024 The LineageOS Project
+# Copyright (C) 2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,15 +12,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RM6785/device.mk)
 
-# Inherit some common YAAP stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+# Inherit some common Infinity stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-# YAAP Flags
+# Infinity Flags
+INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_MAINTAINER := 
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := false
+TARGET_SHIPS_FULL_GAPPS := false
+TARGET_SHIPS_GOOGLE_DIALER := =false
+USE_MOTO_CALCULATOR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BUILD_GAPPS=false
-TARGET_ENABLE_BLUR=false
+TARGET_HAS_UDFPS := false
 
-PRODUCT_NAME := yaap_RM6785
+PRODUCT_NAME := infinity_RM6785
 PRODUCT_DEVICE := RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RM6785
