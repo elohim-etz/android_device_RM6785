@@ -327,6 +327,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/mediatek/libmtkperf_client \
+    hardware/oplus \
     $(LOCAL_PATH)
 
 # Soundtrigger
@@ -353,6 +354,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch-service.oplus
 
 # Update
 AB_OTA_UPDATER := false
