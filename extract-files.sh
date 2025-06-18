@@ -93,6 +93,10 @@ function blob_fixup {
         vendor/lib/mediadrm/libwvdrmengine.so|vendor/lib/libwvhidl.so)
             "$PATCHELF" --replace-needed "libcrypto.so" "libcrypto_v33.so" "$2"
             ;;
+        vendor/bin/hw/mtkfusionrild)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --add-needed "libutils-v32.so" "${2}"
+            ;;
     esac
 }
 
